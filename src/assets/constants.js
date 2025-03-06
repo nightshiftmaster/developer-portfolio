@@ -29,7 +29,7 @@ export const skills = [
   { skill: "Node.js", icon: FaNodeJs },
 ];
 
-const projects = [
+export const projects = [
   {
     title: "Music Artist Website",
     year: "Jan2025",
@@ -37,6 +37,7 @@ const projects = [
       "Interactive music artist portfolio with a music player, video showcase, photo gallery, and smooth animations",
     stack: "React, Redux, GSAP, CSS Animations",
     image: "/images/musicartist.png",
+    align: "left",
     link: "",
   },
   {
@@ -46,6 +47,7 @@ const projects = [
       "Full-stack food delivery application with user authentication, product catalog, cart functionality, and order management.",
     stack: "Next.js, React, Zustand, TypeScript, Node.js, Tailwindcss, Prisma",
     image: "/images/foody.png",
+    align: "right",
     link: "",
   },
   {
@@ -55,6 +57,7 @@ const projects = [
       "Full-stack e-commerce platform with user authentication, product search, and cart functionality.",
     stack: "Next.js, React, Redux, TypeScript, Node.js, Tailwindcss, MongoDB",
     image: "/images/gadgethub.png",
+    align: "left",
     link: "",
   },
   {
@@ -64,6 +67,7 @@ const projects = [
       "Full-stack music streaming application with genre and artist exploration, real-time charts, search functionality, audio player and responsive design.",
     stack: "React, Express.js, Redux, Node.js, Tailwindcss, MongoDB",
     image: "/images/musix.png",
+    align: "right",
     link: "",
   },
   {
@@ -71,8 +75,9 @@ const projects = [
     year: "Oct2023",
     description:
       "Portfolio website with project showcase, blog, and contact form.",
-    stack: "Next.js, React, TypeScript",
-    image: "/images/portfolify.png",
+    stack: "Next.js, React, TypeScript, Tailwindcss",
+    image: "/images/portfolimix.png",
+    align: "left",
     link: "",
   },
   {
@@ -82,6 +87,7 @@ const projects = [
       "Real-time chat application with user authentication, one-on-one messaging and group chats",
     stack: "React, Redux, Node.js, Socket.io",
     image: "/images/chatapp.png",
+    align: "right",
     link: "",
   },
 ];
