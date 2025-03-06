@@ -9,7 +9,7 @@ export const ExperienceMain = () => {
       <ExperienceText />
       <ExperienceTop />
       <div className="w-full h-1 mt-4 bg-lightbrown lg:block sm:hidden"></div>
-      <AllExperience />
+      {/* <AllExperience /> */}
     </div>
   );
 };

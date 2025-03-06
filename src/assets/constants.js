@@ -28,3 +28,60 @@ export const skills = [
   { skill: "Tailwindcss", icon: RiTailwindCssFill },
   { skill: "Node.js", icon: FaNodeJs },
 ];
+
+const projects = [
+  {
+    title: "Music Artist Website",
+    year: "Jan2025",
+    description:
+      "Interactive music artist portfolio with a music player, video showcase, photo gallery, and smooth animations",
+    stack: "React, Redux, GSAP, CSS Animations",
+    image: "/images/musicartist.png",
+    link: "",
+  },
+  {
+    title: "Foody",
+    year: "Apr2024",
+    description:
+      "Full-stack food delivery application with user authentication, product catalog, cart functionality, and order management.",
+    stack: "Next.js, React, Zustand, TypeScript, Node.js, Tailwindcss, Prisma",
+    image: "/images/foody.png",
+    link: "",
+  },
+  {
+    title: "GadgetHub",
+    year: "Jan2024",
+    description:
+      "Full-stack e-commerce platform with user authentication, product search, and cart functionality.",
+    stack: "Next.js, React, Redux, TypeScript, Node.js, Tailwindcss, MongoDB",
+    image: "/images/gadgethub.png",
+    link: "",
+  },
+  {
+    title: "Musix",
+    year: "Jul2023",
+    description:
+      "Full-stack music streaming application with genre and artist exploration, real-time charts, search functionality, audio player and responsive design.",
+    stack: "React, Express.js, Redux, Node.js, Tailwindcss, MongoDB",
+    image: "/images/musix.png",
+    link: "",
+  },
+  {
+    title: "Portfolimix",
+    year: "Oct2023",
+    description:
+      "Portfolio website with project showcase, blog, and contact form.",
+    stack: "Next.js, React, TypeScript",
+    image: "/images/portfolify.png",
+    link: "",
+  },
+  {
+    title: "Chat App",
+    year: "Nov2022",
+    description:
+      "Real-time chat application with user authentication, one-on-one messaging and group chats",
+    stack: "React, Redux, Node.js, Socket.io",
+    image: "/images/chatapp.png",
+    link: "",
+  },
+];

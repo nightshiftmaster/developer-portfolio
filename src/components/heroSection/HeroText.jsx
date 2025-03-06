@@ -10,9 +10,9 @@ export const HeroText = () => {
         Vlad Medvedev
       </h1>
       <p className="text-lg mt-4 text-white">
-        A Passionate Web Developer and Designer
+        Turning ideas into digital experiences.
         <br />
-        with 4+ years of eperience
+        Passionate about code, design & everything in between.
       </p>
     </div>
   );
