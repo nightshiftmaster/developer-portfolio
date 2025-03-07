@@ -6,11 +6,11 @@ export const SingleProject = ({ ...item }) => {
   const { title, year, description, stack, image, link, align } = item;
   return (
     <div
-      className={`flex w-full flex-col-reverse items-center  border-darkgrey border py-10 px-7 rounded-xl gap-8 ${
+      className={`flex w-full flex-col-reverse items-center  border-orange border  py-10 px-7 rounded-xl gap-8 ${
         align === "left" ? "md:flex-row-reverse" : "md:flex-row"
       } justify-end`}
     >
-      <div className="md:w-[40vw] w-[80vw]  flex flex-col gap-1">
+      <div className=" flex flex-col gap-1">
         <h2 className="md:text-3xl text-2xl md:text-left text-center text-orange">
           {title}
         </h2>
@@ -20,7 +20,7 @@ export const SingleProject = ({ ...item }) => {
           {year}
         </h2>
         <p className="text-white md:text-left text-center ">{description}</p>
-        <div className="m-auto md:m-0  flex flex-row gap-2 mt-3 border w-fit border-gray-500 rounded-full p-3">
+        <div className="m-auto md:m-0 md:mt-3 flex flex-row gap-2 mt-3 border w-fit border-gray-500 rounded-full p-3">
           {stack.map((skill, index) => {
             return <StackItem key={index} skill={skill} />;
           })}

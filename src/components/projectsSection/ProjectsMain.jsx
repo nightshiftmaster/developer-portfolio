@@ -7,7 +7,7 @@ export const ProjectsMain = () => {
   return (
     <div id="projects" className="max-w-[1200px] mx-auto px-4 ">
       <ProjectsText />
-      <div className="flex flex-col gap-20 max-w-[900px] mx-auto mt-12">
+      <div className="flex flex-col gap-20 max-w-[1000px] mx-auto mt-12">
         {projects.map((item, index) => {
           return <SingleProject key={index} {...item} />;
         })}

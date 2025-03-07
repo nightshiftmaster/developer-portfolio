@@ -47,8 +47,9 @@ export const projects = [
     description:
       "Full-stack food delivery application with user authentication, product catalog, cart functionality, and order management.",
     stack: [
-      "Next.js",
       "React",
+      "Next.js",
+      "JavaScript",
       "TypeScript",
       "Node.js",
       "Tailwindcss",
@@ -64,10 +65,11 @@ export const projects = [
     description:
       "Full-stack e-commerce platform with user authentication, product search, and cart functionality.",
     stack: [
-      "Next.js",
       "React",
-      "Redux",
+      "Next.js",
+      "JavaScript",
       "TypeScript",
+      "Redux",
       "Node.js",
       "Tailwindcss",
       "MongoDB",
@@ -83,8 +85,9 @@ export const projects = [
       "Full-stack music streaming application with genre and artist exploration, real-time charts, search functionality, audio player and responsive design.",
     stack: [
       "React",
-      "Express.js",
+      "JavaScript",
       "Redux",
+      "Express.js",
       "Node.js",
       "Tailwindcss",
       "MongoDB",
@@ -98,7 +101,7 @@ export const projects = [
     year: "Oct2023",
     description:
       "Portfolio website with project showcase, blog, and contact form.",
-    stack: ["Next.js", "React", "TypeScript", "Tailwindcss"],
+    stack: ["React", "Next.js", "JavaScript", "TypeScript", "Tailwindcss"],
     image: "/images/portfolimix.png",
     align: "left",
     link: "https://github.com/nightshiftmaster/Portfolimix-app",
