@@ -21,9 +21,9 @@ export const AllExperience = () => {
     <div>
       {experiences.map((experience, index) => {
         return (
-          <>
+          <div key={index}>
             <SingleExperience experience={experience} />;
-          </>
+          </div>
         );
       })}
     </div>

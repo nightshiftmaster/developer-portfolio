@@ -4,7 +4,8 @@ import { IoLogoJavascript } from "react-icons/io";
 import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
-import { MdSettingsApplications } from "react-icons/md";
+import { BiLogoMongodb } from "react-icons/bi";
+import { SiExpress } from "react-icons/si";
 
 import { FaNodeJs } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
@@ -24,10 +25,12 @@ export const skills = [
   { skill: "JavaScript", icon: IoLogoJavascript },
   { skill: "TypeScript", icon: SiTypescript },
   { skill: "React", icon: FaReact },
-  { skill: "Redux", icon: SiRedux },
   { skill: "Next.js", icon: SiNextdotjs },
+  { skill: "Redux", icon: SiRedux },
   { skill: "Tailwindcss", icon: RiTailwindCssFill },
   { skill: "Node.js", icon: FaNodeJs },
+  { skill: "Express.js", icon: SiExpress },
+  { skill: "MongoDB", icon: BiLogoMongodb },
 ];
 
 export const projects = [
@@ -101,7 +104,7 @@ export const projects = [
     year: "Oct2023",
     description:
       "Portfolio website with project showcase, blog, and contact form.",
-    stack: ["React", "Next.js", "JavaScript", "TypeScript", "Tailwindcss"],
+    stack: ["React", "Next.js", "JavaScript", "TypeScript", "CSS", "MongoDB"],
     image: "/images/portfolimix.png",
     align: "left",
     link: "https://github.com/nightshiftmaster/Portfolimix-app",
