@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { NavbarLogo } from "./NavbarLogo";
 import { NavbarLinks } from "./NavbarLinks";
 import { NavbarBtn } from "./NavbarBtn";
@@ -6,18 +6,37 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 export const NavbarMain = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const navRef = useRef(null);
   const toggle = () => {
     setIsOpen(!isOpen);
   };
-  const close = () => {
-    setIsOpen(false);
-  };
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (navRef.current && !navRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
   return (
-    <nav className="max-w-[1300px] mx-auto px-4 w-full fixed left-[50%] -translate-x-[50%] z-20 flex gap-4 mt-2">
+    <nav
+      className="max-w-[1300px] mx-auto px-4 w-full fixed left-[50%] -translate-x-[50%] z-20 flex gap-4 mt-2"
+      ref={navRef}
+    >
       <div className="flex justify-between w-full max-w-[1200px] mx-auto bg-black items-center p-6 rounded-full border-[0.5px] border-orange">
         <NavbarLogo />
-        <div className={`${isOpen ? "sm:block" : "sm:hidden"} lg:block`}>
-          <NavbarLinks />
+        <div
+          className={`${isOpen ? "sm:block" : "sm:hidden"} lg:block`}
+          onClick={() => setIsOpen(!open)}
+        >
+          <NavbarLinks setIsOpen={setIsOpen} isOpen={isOpen} />
         </div>
         <NavbarBtn />
       </div>
