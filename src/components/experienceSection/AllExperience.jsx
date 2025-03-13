@@ -1,7 +1,7 @@
 import React from "react";
 import { SingleExperience } from "./SingleExperience";
 
-const experiences = [
+export const experiences = [
   {
     job: "Full-Stack Developer / Freelancer",
     date: "2022 - Present",

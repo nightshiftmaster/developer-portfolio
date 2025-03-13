@@ -27,7 +27,7 @@ export const skills = [
   { skill: "React", icon: FaReact },
   { skill: "Next.js", icon: SiNextdotjs },
   { skill: "Redux", icon: SiRedux },
-  { skill: "Tailwindcss", icon: RiTailwindCssFill },
+  // { skill: "Tailwindcss", icon: RiTailwindCssFill },
   { skill: "Node.js", icon: FaNodeJs },
   { skill: "Express.js", icon: SiExpress },
   { skill: "MongoDB", icon: BiLogoMongodb },

@@ -1,11 +1,17 @@
 import React from "react";
 import { BiSolidRightTopArrowCircle } from "react-icons/bi";
 import { StackItem } from "./StackItem";
+import { motion } from "motion/react";
+import { fadeIn } from "../../framerMotion/variants";
 
 export const SingleProject = ({ ...item }) => {
   const { title, year, description, stack, image, link, align } = item;
   return (
-    <div
+    <motion.div
+      variants={fadeIn(align === "left" ? "right" : "left", 0.6)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.2 }}
       className={`flex w-full flex-col-reverse items-center  border-orange border  py-10 px-7 rounded-xl gap-8 ${
         align === "left" ? "md:flex-row-reverse" : "md:flex-row"
       } justify-end`}
@@ -41,6 +47,6 @@ export const SingleProject = ({ ...item }) => {
         <div className="w-full h-full bg-cyan opacity-30 absolute hover:opacity-0 transition-all duration-500 hidden md:block"></div>
         <img src={image} alt="project image" className="w-full h-full" />
       </div>
-    </div>
+    </motion.div>
   );
 };
