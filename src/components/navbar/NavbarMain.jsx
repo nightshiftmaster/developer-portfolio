@@ -30,7 +30,7 @@ export const NavbarMain = () => {
       className="max-w-[1300px] mx-auto px-4 w-full fixed left-[50%] -translate-x-[50%] z-20 flex gap-4 mt-2"
       ref={navRef}
     >
-      <div className="flex justify-between w-full max-w-[1200px] mx-auto bg-black items-center p-6 rounded-full border-[0.5px] border-orange">
+      <div className="flex justify-between w-full max-w-[1200px] mx-auto bg-black items-center px-6 py-3 rounded-full border-[0.5px] border-orange">
         <NavbarLogo />
         <div
           className={`${isOpen ? "sm:block" : "sm:hidden"} lg:block`}
@@ -46,7 +46,7 @@ export const NavbarMain = () => {
           type="button"
           onClick={toggle}
         >
-          <GiHamburgerMenu className="text-white text-3xl cursor-pointer" />
+          <GiHamburgerMenu className="text-white text-base cursor-pointer" />
         </button>
       </div>
     </nav>
