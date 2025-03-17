@@ -8,10 +8,10 @@ export const SingleProject = ({ ...item }) => {
   const { title, year, description, stack, image, link, align, website } = item;
   return (
     <motion.div
-      variants={fadeIn(align === "left" ? "right" : "left", 0.6)}
+      variants={fadeIn(align === "left" ? "right" : "left", 0.2)}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.2 }}
+      viewport={{ once: false, amount: 0 }}
       className={`flex w-full flex-col-reverse items-center  border-orange border  py-10 px-7 rounded-xl gap-8 ${
         align === "left" ? "md:flex-row-reverse" : "md:flex-row"
       } justify-end`}

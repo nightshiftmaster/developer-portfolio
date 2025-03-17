@@ -15,7 +15,7 @@ export const ContactMain = () => {
         variants={fadeIn("down", 0.2)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.3 }}
+        viewport={{ once: false, amount: 0 }}
       >
         Contact Me
       </motion.h2>
@@ -24,7 +24,7 @@ export const ContactMain = () => {
         variants={fadeIn("up", 0.3)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.3 }}
+        viewport={{ once: false, amount: 0 }}
       >
         <ContactLeft />
         <ContactRight />

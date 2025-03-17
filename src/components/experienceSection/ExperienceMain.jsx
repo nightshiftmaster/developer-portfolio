@@ -13,7 +13,7 @@ export const ExperienceMain = () => {
         variants={fadeIn("down", 0.2)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.4 }}
+        viewport={{ once: false, amount: 0 }}
       >
         <ExperienceText />
       </motion.div>
@@ -23,7 +23,7 @@ export const ExperienceMain = () => {
           variants={fadeIn("right", 0.3)}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.5 }}
+          viewport={{ once: false, amount: 0 }}
         >
           <ExperienceTopMiddle />
         </motion.div>
@@ -31,7 +31,7 @@ export const ExperienceMain = () => {
           variants={fadeIn("left", 0.4)}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.2 }}
+          viewport={{ once: false, amount: 0 }}
         >
           <AllExperience />
         </motion.div>

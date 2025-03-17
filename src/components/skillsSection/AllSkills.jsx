@@ -15,8 +15,9 @@ export const AllSkills = () => {
               initial="hidden"
               whileInView="show"
               viewport={{ once: false, amount: 0.2 }}
+              key={index}
             >
-              <SingleSkill key={index} text={item.skill} icon={<item.icon />} />
+              <SingleSkill text={item.skill} icon={<item.icon />} />
             </motion.div>
           );
         })}
