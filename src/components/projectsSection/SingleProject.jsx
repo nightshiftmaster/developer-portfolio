@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 import { fadeIn } from "../../framerMotion/variants";
 
 export const SingleProject = ({ ...item }) => {
-  const { title, year, description, stack, image, link, align } = item;
+  const { title, year, description, stack, image, link, align, website } = item;
   return (
     <motion.div
       variants={fadeIn(align === "left" ? "right" : "left", 0.6)}
@@ -43,9 +43,12 @@ export const SingleProject = ({ ...item }) => {
           <BiSolidRightTopArrowCircle />
         </a>
       </div>
+
       <div className="max-h-[250px] max-w-[400px] rounded-xl overflow-hidden hover:scale-110 transform transition-all duration-500 relative border border-white">
-        <div className="w-full h-full bg-cyan opacity-30 absolute hover:opacity-0 transition-all duration-500 hidden md:block"></div>
-        <img src={image} alt="project image" className="w-full h-full" />
+        <a href={website} target="_blank" rel="noreferrer">
+          <div className="w-full h-full bg-cyan opacity-30 absolute hover:opacity-0 transition-all duration-500 hidden md:block"></div>
+          <img src={image} alt="project image" className="w-full h-full" />
+        </a>
       </div>
     </motion.div>
   );

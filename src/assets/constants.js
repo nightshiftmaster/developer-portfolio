@@ -43,6 +43,7 @@ export const projects = [
     image: "/images/musicartist.png",
     align: "left",
     link: "https://github.com/nightshiftmaster/artist-portfolio",
+    website: "https://vlad-violin.vercel.app/",
   },
   {
     title: "Foody",
@@ -61,6 +62,7 @@ export const projects = [
     image: "/images/foody.png",
     align: "right",
     link: "https://github.com/nightshiftmaster/Foody-food-delivery-app",
+    website: "https://foody-app-gray.vercel.app/",
   },
   {
     title: "GadgetHub",
@@ -80,6 +82,7 @@ export const projects = [
     image: "/images/gadgethub.png",
     align: "left",
     link: "https://github.com/nightshiftmaster/GadgetHub-shop-ecommerce",
+    website: "https://gadget-hub-shop.vercel.app/",
   },
   {
     title: "Musix",
@@ -98,6 +101,7 @@ export const projects = [
     image: "/images/musix.png",
     align: "right",
     link: "https://github.com/nightshiftmaster/Musix-music-streaming-app",
+    website: "https://musix-music-streaming-app.vercel.app/",
   },
   {
     title: "Portfolimix",
@@ -108,5 +112,6 @@ export const projects = [
     image: "/images/portfolimix.png",
     align: "left",
     link: "https://github.com/nightshiftmaster/Portfolimix-app",
+    website: "https://fullstack-next-js-lake.vercel.app/",
   },
 ];
