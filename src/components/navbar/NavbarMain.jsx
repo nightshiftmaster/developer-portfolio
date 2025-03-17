@@ -40,13 +40,13 @@ export const NavbarMain = () => {
         </div>
         <NavbarBtn />
       </div>
-      <div className="flex lg:hidden sm:block p-6 bg-black items-center justify-center rounded-full border-[0.5px] border-orange">
+      <div className="flex lg:hidden sm:block p-5 bg-black items-center justify-center rounded-full border-[0.5px] border-orange">
         <button
-          className="text-2xl p-3 border border-orange rounded-full text-white"
+          className="text-xl p-2 border border-orange rounded-full text-white"
           type="button"
           onClick={toggle}
         >
-          <GiHamburgerMenu className="text-white text-base cursor-pointer" />
+          <GiHamburgerMenu className="text-white text-sm cursor-pointer" />
         </button>
       </div>
     </nav>
