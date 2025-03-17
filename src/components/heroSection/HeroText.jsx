@@ -11,7 +11,7 @@ export const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="lg:text-2xl sm:text-xl uppercase text-cyan"
+        className="lg:text-2xl sm:text-xl uppercase  text-cyan mb-4"
       >
         <TitleAnimation />
       </motion.h2>
