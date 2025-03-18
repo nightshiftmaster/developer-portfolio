@@ -22,7 +22,7 @@ export const FooterMain = () => {
           })}
         </ul>
       </div>
-      <p className="max-w-[1200px] mx-auto text-right mt-2 mb-12 text-sm text-lightbrown">
+      <p className="max-w-[1200px] mx-auto md:text-right text-center mt-2 mb-12 text-sm text-lightbrown">
         © 2025 Vlad Medvedev | All Rights Reserved.
       </p>
     </div>
