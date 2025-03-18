@@ -35,17 +35,6 @@ export const skills = [
 
 export const projects = [
   {
-    title: "Music Artist Website",
-    year: "Jan2025",
-    description:
-      "Interactive music artist portfolio with a music player, video showcase, photo gallery, and smooth animations",
-    stack: ["React", "Redux", "JavaScript", "CSS"],
-    image: "/images/musicartist.png",
-    align: "left",
-    link: "https://github.com/nightshiftmaster/artist-portfolio",
-    website: "https://vlad-violin.vercel.app/",
-  },
-  {
     title: "Foody",
     year: "Apr2024",
     description:
@@ -102,6 +91,17 @@ export const projects = [
     align: "right",
     link: "https://github.com/nightshiftmaster/Musix-music-streaming-app",
     website: "https://musix-music-streaming-app.vercel.app/",
+  },
+  {
+    title: "Music Artist Website",
+    year: "Jan2025",
+    description:
+      "Interactive music artist portfolio with a music player, video showcase, photo gallery, and smooth animations",
+    stack: ["React", "Redux", "JavaScript", "CSS"],
+    image: "/images/musicartist.png",
+    align: "left",
+    link: "https://github.com/nightshiftmaster/artist-portfolio",
+    website: "https://vlad-violin.vercel.app/",
   },
   {
     title: "Portfolimix",
