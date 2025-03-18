@@ -22,7 +22,7 @@ export const ContactSocials = () => {
         return (
           <div
             key={index}
-            className="text-2xl h-12 w-12 border border-orange text-orange rounded-full p-3 flex items-center justify-center"
+            className="text-2xl h-12 w-12 border border-orange text-orange rounded-full p-3 flex items-center justify-center hover:scale-125 transition-all duration-500"
           >
             <a
               href={item.link}
