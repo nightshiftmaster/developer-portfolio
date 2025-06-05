@@ -19,9 +19,7 @@ const SignupSchema = Yup.object().shape({
 
 export const ContactForm = () => {
   const form = useRef();
-  const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
-
   return (
     <div>
       <Formik
@@ -112,8 +110,8 @@ export const ContactForm = () => {
               <button
                 disabled={isSubmitting}
                 type="submit"
-                className={`w-full rounded-lg border border-cyan text-white h-12 font-bold text-xl hover:bg-cyan ${
-                  loading ? "bg-gray-500" : "bg-darkcyan"
+                className={`w-full rounded-lg border border-cyan text-white h-12 font-bold text-xl hover:scale-105 transition-all duration-500 hover:bg-cyan ${
+                  isSubmitting ? "bg-gray-500" : "bg-darkcyan"
                 }`}
               >
                 {!isSubmitting ? "Submit" : "Sending..."}

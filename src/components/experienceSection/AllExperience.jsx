@@ -3,7 +3,22 @@ import { SingleExperience } from "./SingleExperience";
 
 export const experiences = [
   {
-    job: "Full-Stack Developer / Freelancer",
+    job: "BIDZ Influencer Marketplace ",
+    title: "Full-Stack Developer",
+    date: "2025 - Present",
+    responsibilities: [
+      `Developed new features and UI components to enhance the user interface.`,
+      `Optimized existing functionality for better application performance and responsiveness.`,
+      `Troubleshot and resolved technical issues to ensure application stability
+`,
+      `Collaborated with developers and designers on UI/UX and functional improvements`,
+      `Contributed to front-end, back-end, and database development, providing comprehensive full-stack solutions`,
+      `Used GitHub for version control and branch management, working in a CI/CD pipeline with GitHub Actions to automate tests and deployments`,
+    ],
+  },
+  {
+    job: "Freelancer",
+    title: "Full-Stack Developer",
     date: "2022 - Present",
     responsibilities: [
       ` Developed and deployed multiple Full-Stack applications, managing Front-End, Back End development and Database.`,
